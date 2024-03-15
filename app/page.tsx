@@ -4,7 +4,7 @@ import styles from '@/app/ui/home.module.css';
 export default async function Page() {
     return (
         <main className="container my-20 mx-auto px-4 md:max-w-2xl">
-            <h1 className="mb-2 text-5xl font-bold bg-gradient-to-r from-blue-800 to-teal-400 inline-block text-transparent bg-clip-text">Hello, I'm Artem</h1>
+            <h1 className="mb-2 text-5xl font-bold bg-gradient-to-r from-blue-800 to-teal-400 inline-block text-transparent bg-clip-text">Hello, I&apos;m Artem</h1>
             <div className=' mb-24'>I have been crafting beautiful websites for the last 5 years.</div>
             <div className="mb-14">
                 <div className="text-xl font-bold mb-2">Objective</div>
@@ -13,7 +13,7 @@ export default async function Page() {
 
             <div className='mb-14'>
                 <div className="flex items-center mb-4">
-                    <Image src="/logos/softgamings_logo.webp" alt="Softgamings logo" width={200} height={200} className="w-14 h-14 mr-4 rounded-md" />
+                    <Image src="/portfolio/logos/softgamings_logo.webp" alt="Softgamings logo" width={200} height={200} className="w-14 h-14 mr-4 rounded-md" />
                     <div className="flex flex-col">
                         <span className="text-xl font-bold">Frontend Developer</span>
                         <div>Softgamings - April 2021 - Present</div>
@@ -29,7 +29,7 @@ export default async function Page() {
 
             <div className='mb-14'>
                 <div className="flex items-center mb-4">
-                    <Image src="/logos/digitalleague_logo.webp" alt="Digital League logo" width={200} height={200} className="w-14 h-14 mr-4 rounded-md" />
+                    <Image src="/portfolio/logos/digitalleague_logo.webp" alt="Digital League logo" width={200} height={200} className="w-14 h-14 mr-4 rounded-md" />
                     <div className="flex flex-col">
                         <span className="text-xl font-bold">Junior Frontend Developer</span>
                         <div>Digital League - Septembeer 2019 - March 2021</div>
@@ -43,7 +43,7 @@ export default async function Page() {
 
             <div className='mb-14'>
                 <div className="flex items-center mb-4">
-                    <Image src="/logos/ship.webp" alt="Digital League logo" width={200} height={200} className="w-14 h-14 mr-4 rounded-md" />
+                    <Image src="/portfolio/logos/ship.webp" alt="Digital League logo" width={200} height={200} className="w-14 h-14 mr-4 rounded-md" />
                     <div className="flex flex-col">
                         <span className="text-xl font-bold">Web Developer</span>
                         <div>Freelance - June 2017 - Septembeer 2019</div>
