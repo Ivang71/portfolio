@@ -6,7 +6,7 @@
     text-align: center;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
-    background: linear-gradient(90deg, #1e40af, #2dd4bf);
+    background: linear-gradient(90deg, #1f2937, #2dd4bf);
     color: white;
     transform: translate(0);
     transform-style: preserve-3d;
@@ -33,17 +33,7 @@
             calc(0px + var(--s)) calc(0px + var(--s)));
     transition: opacity .2s ease-in-out;
     opacity: 0;
-    background: linear-gradient(90deg, #1e40af, #2dd4bf);
+    background: linear-gradient(90deg, #1f2937, #2dd4bf);
     filter: blur(10px);
     border-radius: inherit;
-}
-
-@keyframes rotate-background {
-    from {
-        background: linear-gradient(90deg, #1e40af, #2dd4bf);
-    }
-
-    to {
-        background: linear-gradient(450deg, #1e40af, #2dd4bf);
-    }
 }

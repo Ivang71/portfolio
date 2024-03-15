@@ -4,14 +4,14 @@ import styles from '@/app/ui/home.module.css';
 export default async function Page() {
     return (
         <main className="container my-20 mx-auto px-4 md:max-w-2xl">
-            <h1 className="mb-2 text-5xl font-bold bg-gradient-to-r from-blue-800 to-teal-400 inline-block text-transparent bg-clip-text">Hello, I&apos;m Artem</h1>
+            <h1 className="mb-2 text-5xl font-bold bg-gradient-to-r from-gray-800 to-teal-400 inline-block text-transparent bg-clip-text">Hello, I&apos;m Artem</h1>
             <div className=' mb-24'>I have been crafting beautiful websites for the last 5 years.</div>
             <div className="mb-14">
                 <div className="text-xl font-bold mb-2">Objective</div>
                 <div>Passionate Front-End Developer building engaging and user-centric web applications. Skilled in HTML, CSS, JavaScript, and React, delivering high-quality and scalable solutions through collaboration and continuous learning.</div>
             </div>
 
-            <div className='mb-14'>
+            <div className='mb-14 shadow-xl rounded-md p-4'>
                 <div className="flex items-center mb-4">
                     <Image src="/portfolio/logos/softgamings_logo.webp" alt="Softgamings logo" width={200} height={200} className="w-14 h-14 mr-4 rounded-md" />
                     <div className="flex flex-col">
@@ -27,7 +27,7 @@ export default async function Page() {
                 </div>
             </div>
 
-            <div className='mb-14'>
+            <div className='mb-14 shadow-xl rounded-md p-4'>
                 <div className="flex items-center mb-4">
                     <Image src="/portfolio/logos/digitalleague_logo.webp" alt="Digital League logo" width={200} height={200} className="w-14 h-14 mr-4 rounded-md" />
                     <div className="flex flex-col">
@@ -41,7 +41,7 @@ export default async function Page() {
                 </div>
             </div>
 
-            <div className='mb-14'>
+            <div className='mb-14 shadow-xl rounded-md p-4'>
                 <div className="flex items-center mb-4">
                     <Image src="/portfolio/logos/ship.webp" alt="Digital League logo" width={200} height={200} className="w-14 h-14 mr-4 rounded-md" />
                     <div className="flex flex-col">
@@ -62,7 +62,7 @@ export default async function Page() {
             <section className="container py-16">
                 <h2 className="text-3xl font-bold mb-8">Contact</h2>
                 <div className="flex flex-col gap-4">
-                    <p className="text-gray-600 mb-2">Please feel free to contact me for any enquiries.</p>
+                    <p className="text-gray-700 mb-2">Please feel free to contact me for any enquiries.</p>
                     <a href="mailto:artemtolv@gmail.com" className={styles.cta}>Get In Touch</a>
                 </div>
             </section>
