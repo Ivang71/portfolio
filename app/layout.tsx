@@ -7,7 +7,7 @@ export const metadata: Metadata = {
         template: '%s | Artem Tolochkov',
         default: 'Artem Tolochkov',
     },
-    description: 'My portfolio website.',
+    description: 'Artem Tolochkov the frontend dev.',
     // metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
 }
 
