@@ -8,7 +8,7 @@ export const metadata: Metadata = {
         default: 'Artem Tolochkov',
     },
     description: 'Artem Tolochkov the frontend dev.',
-    // metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+    metadataBase: new URL('https://ivang71.github.io'),
 }
 
 export default function RootLayout({
