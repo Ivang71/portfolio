@@ -1,13 +1,20 @@
-/* transition duration-200 text-center px-4 py-2 rounded-md bg-gradient-to-r from-blue-800 to-teal-400 text-white hover:hue-rotate-90 */
+.headline {
+    /* bg-gradient-to-r from-gray-800 to-teal-400 */
+    background: linear-gradient(90deg, var(--gradient-start-color), #2dd4bf);
+    background-clip: text;
+}
+
 .cta {
-    --s: 10px; /* the spread-radius */
+    --s: 10px;
+    /* the shadow spread-radius */
     position: relative;
     transition: 200ms ease-in-out;
     text-align: center;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
-    background: linear-gradient(90deg, #1f2937, #2dd4bf);
-    color: white;
+    background: linear-gradient(90deg, var(--gradient-start-color), #2dd4bf);
+    color: var(--cta-text-color);
+    font-size: 1.25rem;
     transform: translate(0);
     transform-style: preserve-3d;
 }
@@ -33,7 +40,15 @@
             calc(0px + var(--s)) calc(0px + var(--s)));
     transition: opacity .2s ease-in-out;
     opacity: 0;
+    /* from tw gray 800 to tw teal 400 */
     background: linear-gradient(90deg, #1f2937, #2dd4bf);
-    filter: blur(10px);
+    filter: blur(15px);
     border-radius: inherit;
+}
+
+.boxShadow {
+    box-shadow: 0 0 var(--box-shadow-color), 0 0 var(--box-shadow-color),
+        0 20px 25px -5px color-mix(in srgb, var(--box-shadow-color) 10%, transparent),
+        0 8px 10px -6px color-mix(in srgb, var(--box-shadow-color) 10%, transparent);
+    background-color: rgba(var(--box-shadow-color), 0.1);
 }
