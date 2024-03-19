@@ -1,6 +1,6 @@
 .headline {
     /* bg-gradient-to-r from-gray-800 to-teal-400 */
-    background: linear-gradient(90deg, var(--gradient-start-color), #2dd4bf);
+    background: linear-gradient(90deg, #06b6d4, #3b82f6);
     background-clip: text;
 }
 
@@ -12,7 +12,7 @@
     text-align: center;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
-    background: linear-gradient(90deg, var(--gradient-start-color), #2dd4bf);
+    background: linear-gradient(90deg, #06b6d4, #3b82f6);
     color: var(--cta-text-color);
     font-size: 1.25rem;
     transform: translate(0);
@@ -41,7 +41,7 @@
     transition: opacity .2s ease-in-out;
     opacity: 0;
     /* from tw gray 800 to tw teal 400 */
-    background: linear-gradient(90deg, #1f2937, #2dd4bf);
+    background: linear-gradient(90deg, #06b6d4, #3b82f6);
     filter: blur(15px);
     border-radius: inherit;
 }
