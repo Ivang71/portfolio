@@ -11,7 +11,37 @@ export default async function Page() {
 
             <div className='mb-16 flex flex-col space-y-4'>
                 <span className='text-xl font-bold'>Some projects I worked on</span>
-                <div className='group relative cursor-pointer'>
+                <div className='group relative cursor-pointer select-none'>
+                    <a href='https://ecommerce-dashboard-gold.vercel.app' target='blank' rel='noreferrer'>
+                        <Image
+                            className={`${styles.boxShadow} w-full h-40 object-cover rounded-md`}
+                            src='/portfolio/projects/dashboard.avif'
+                            alt='Ecommerce Dashboard'
+                            width={1023}
+                            height={540}
+                        />
+                        <div className='absolute inset-0 bg-gray-800 opacity-0 group-hover:opacity-75 transition duration-300 ease-in-out'></div>
+                        <div className='absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300'>
+                            <p className='text-white text-center font-semibold'>An Ecommerce Dashboard</p>
+                        </div>
+                    </a>
+                </div>
+                <div className='group relative cursor-pointer select-none'>
+                    <a href='https://ivang71.github.io/margelo-agency' target='blank' rel='noreferrer'>
+                        <Image
+                            className={`${styles.boxShadow} w-full h-40 object-cover rounded-md`}
+                            src='/portfolio/projects/margelo.avif'
+                            alt='A Web Agency'
+                            width={1023}
+                            height={540}
+                        />
+                        <div className='absolute inset-0 bg-gray-800 opacity-0 group-hover:opacity-75 transition duration-300 ease-in-out'></div>
+                        <div className='absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300'>
+                            <p className='text-white text-center font-semibold'>Margelo Agency</p>
+                        </div>
+                    </a>
+                </div>
+                <div className='group relative cursor-pointer select-none'>
                     <a href='https://www.catcasino.com' target='blank' rel='noreferrer'>
                         <Image
                             className={`${styles.boxShadow} w-full h-40 object-cover rounded-md`}
@@ -26,7 +56,7 @@ export default async function Page() {
                         </div>
                     </a>
                 </div>
-                <div className='group relative cursor-pointer'>
+                <div className='group relative cursor-pointer select-none'>
                     <a href='https://buymedia.biz' target='blank' rel='noreferrer'>
                         <Image
                             className={`${styles.boxShadow} w-full h-40 object-cover rounded-md`}
@@ -38,36 +68,6 @@ export default async function Page() {
                         <div className='absolute inset-0 bg-gray-800 opacity-0 group-hover:opacity-75 transition duration-300 ease-in-out'></div>
                         <div className='absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300'>
                             <p className='text-white text-center font-semibold'>Buymedia</p>
-                        </div>
-                    </a>
-                </div>
-                <div className='group relative cursor-pointer'>
-                    <a href='https://ivang71.github.io/alan-ai-challenge' target='blank' rel='noreferrer'>
-                        <Image
-                            className={`${styles.boxShadow} w-full h-40 object-cover rounded-md`}
-                            src='/portfolio/projects/binary-tree.avif'
-                            alt='Binary Search Tree screenshot'
-                            width={1023}
-                            height={540}
-                        />
-                        <div className='absolute inset-0 bg-gray-800 opacity-0 group-hover:opacity-75 transition duration-300 ease-in-out'></div>
-                        <div className='absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300'>
-                            <p className='text-white text-center font-semibold'>Binary Search Tree</p>
-                        </div>
-                    </a>
-                </div>
-                <div className='group relative cursor-pointer'>
-                    <a href='https://ivang71.github.io/web-tanks' target='blank' rel='noreferrer'>
-                        <Image
-                            className={`${styles.boxShadow} w-full h-40 object-cover rounded-md`}
-                            src='/portfolio/projects/canvas.avif'
-                            alt='Canvas Playground screenshot'
-                            width={1023}
-                            height={540}
-                        />
-                        <div className='absolute inset-0 bg-gray-800 opacity-0 group-hover:opacity-75 transition duration-300 ease-in-out'></div>
-                        <div className='absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300'>
-                            <p className='text-white text-center font-semibold'>Canvas Playground</p>
                         </div>
                     </a>
                 </div>
