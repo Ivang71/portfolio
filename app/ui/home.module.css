@@ -9,12 +9,12 @@
     /* the shadow spread-radius */
     position: relative;
     transition: 200ms ease-in-out;
-    text-align: center;
+    /* text-align: center;
     padding: 1rem 1.5rem;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem; */
     background: linear-gradient(90deg, #06b6d4, #3b82f6);
     color: var(--cta-text-color);
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
     transform: translate(0);
     transform-style: preserve-3d;
 }
