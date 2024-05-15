@@ -5,7 +5,7 @@ export default async function Page() {
     return (
         <main className='container my-20 mx-auto px-4 md:max-w-2xl'>
             <h1 className={`${styles.headline} mb-8 text-5xl font-bold inline-block text-transparent`}>👋, меня зовут Артем</h1>
-            <div className='mb-14'>
+            <div className='mb-16 mt-4'>
                 <div>Я веб-разработчик, которого вдохновляет создание интересных и удобных веб-приложений. Использую свои знания HTML, CSS, JavaScript, React и Next.js для разработки высококачественных и масштабируемых решений. Сотрудничество и постоянное обучение – основа моего подхода, благодаря которому я всегда иду в ногу с динамично развивающимся миром айти.</div>
             </div>
 
@@ -13,14 +13,28 @@ export default async function Page() {
 
             <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
                 <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/softgamings_logo.webp' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
+                    <Image src='/portfolio/logos/internetweb.svg' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md bg-gray-50 p-2' />
                     <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Фронтенд разработчик</span>
-                        <div>Softgamings - Апрель 2021 - по настоящее время</div>
+                        <span className='text-xl font-bold'>Фулстек разработчик</span>
+                        <div>InternetWeb - Январь 2023 - по настоящее время</div>
                     </div>
                 </div>
                 <div>
-                    <p className="mb-4">Использовал Angular для создания интерфейсов для онлайн игровых платформ, таких как BetBRX, LuckyCrypto и CatCasino.</p>
+                    <p className='mb-4'>Development and support of frontend and backend of websites in PHP, Vue.js, JQuery, Clickhouse, PostgreSQL, Yii2</p>
+                    <p className='mb-4'>Examples: <a href='https://juddy.biz/' target='_blank'>juddy.biz</a>, <a href='https://buymedia.biz/en' target='_blank'>buymedia.biz</a>.</p>
+                </div>
+            </div>
+
+            <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
+                <div className='flex items-center mb-4'>
+                    <Image src='/portfolio/logos/softgamings_logo.webp' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
+                    <div className='flex flex-col'>
+                        <span className='text-xl font-bold'>Фронтенд разработчик</span>
+                        <div>Softgamings - Апрель 2021 - Январь 2023</div>
+                    </div>
+                </div>
+                <div>
+                    <p className="mb-4">Использовал Angular для создания интерфейсов для онлайн игровых платформ, таких как BetBRX, <a href='https://play.luckycrypto.com/' target='_blank'>LuckyCrypto</a>, and <a href='https://cats-casino.com/en/home' target='_blank'>CatCasino</a>.</p>
                     <p className="mb-4">Оптимизировал производительность приложения для максимальной скорости и масштабируемости.</p>
                     <p className="mb-4">Сотрудничал с дизайнерами, специалистами по UI/UX и бэкенд-разработчиками.</p>
                     <p className="mb-4">Осуществлял постоянное обслуживание и поддержку существующих веб-сайтов, созданных с помощью Angular и PHP.</p>
@@ -41,25 +55,12 @@ export default async function Page() {
                 </div>
             </div>
 
-            <div className={`${styles.boxShadow} mb-14 rounded-md p-4`}>
-                <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/ship.webp' alt='Digital League logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
-                    <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Веб разработчик</span>
-                        <div>Фриланс - Июнь 2017 - Сентябрь 2019</div>
-                    </div>
-                </div>
-                <div>
-                    <p className="mb-4">Разработал 14 сайтов для разных клиентов, используя HTML и CSS.</p>
-                </div>
-            </div>
-
             {/* <div className='education mt-8'>
                 <span className='text-xl font-bold'>Education</span>
                 <div className='mt-2'>Voronezh State University - Applied mathematics and computer science, Computer Software Engineering</div>
             </div> */}
 
-            <div className='mb-16 flex flex-col space-y-4'>
+            <div className='mt-20 flex flex-col space-y-4'>
                 <span className='text-xl font-bold'>Некоторые из моих проектов</span>
                 <div className='group relative cursor-pointer select-none'>
                     <a href='https://ecommerce-dashboard-gold.vercel.app' target='blank' rel='noreferrer'>
@@ -123,7 +124,7 @@ export default async function Page() {
                 </div>
             </div>
 
-            <section className='body-font'>
+            <section className='body-font mt-4'>
                 <div className='container px-5 py-24 mx-auto'>
                     <div className='w-full mx-auto text-center'>
                         <svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' className='inline-block w-8 h-8 text-gray-400 mb-8' viewBox='0 0 975.036 975.036'>
