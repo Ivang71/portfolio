@@ -77,14 +77,28 @@ export default async function Page() {
 
             <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
                 <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/softgamings_logo.webp' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
+                    <Image src='/portfolio/logos/internetweb.svg' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md bg-gray-50 p-2' />
                     <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Frontend Developer</span>
-                        <div>Softgamings - April 2021 - Present</div>
+                        <span className='text-xl font-bold'>Fullstack Engineer</span>
+                        <div>InternetWeb - January 2023 - Present</div>
                     </div>
                 </div>
                 <div>
-                    <p className='mb-4'>Leveraged Angular to create engaging and user-friendly interfaces for multiple online gaming platforms, including BetBRX, LuckyCrypto, and CatCasino. Increased user engagement and streamlined user experience, contributing to a 20% reduction in bounce rate.</p>
+                    <p className='mb-4'>Development and support of frontend and backend of websites in PHP, Vue.js, JQuery, Clickhouse, PostgreSQL, Yii2</p>
+                    <p className='mb-4'>Examples: <a href='https://juddy.biz/' target='_blank'>juddy.biz</a>, <a href='https://buymedia.biz/en' target='_blank'>buymedia.biz</a>.</p>
+                </div>
+            </div>
+
+            <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
+                <div className='flex items-center mb-4'>
+                    <Image src='/portfolio/logos/softgamings_logo.webp' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
+                    <div className='flex flex-col'>
+                        <span className='text-xl font-bold'>Frontend Developer</span>
+                        <div>Softgamings - April 2021 - January 2023</div>
+                    </div>
+                </div>
+                <div>
+                    <p className='mb-4'>Leveraged Angular to create engaging and user-friendly interfaces for multiple online gaming platforms, including BetBRX, <a href='https://play.luckycrypto.com/' target='_blank'>LuckyCrypto</a>, and <a href='https://cats-casino.com/en/home' target='_blank'>CatCasino</a>. Increased user engagement and streamlined user experience, contributing to a 20% reduction in bounce rate.</p>
                     <p className='mb-4'>Optimized application performance for maximum speed and scalability.</p>
                     <p className='mb-4'>Collaborated effectively with designers, UI/UX specialists, and backend developers to deliver a seamless user experience.</p>
                     <p className='mb-4'>Provided ongoing maintenance and support for existing websites built with Angular and PHP.</p>
@@ -105,23 +119,10 @@ export default async function Page() {
                 </div>
             </div>
 
-            <div className={`${styles.boxShadow} mb-14 rounded-md p-4`}>
-                <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/ship.webp' alt='Digital League logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
-                    <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Web Developer</span>
-                        <div>Freelance - June 2017 - September 2019</div>
-                    </div>
-                </div>
-                <div>
-                    <p className='mb-4'>Successfully built and launched 14 dynamic websites for various clients as a solo developer, utilizing HTML and CSS to deliver engaging user experiences.</p>
-                </div>
-            </div>
-
-            <div className='education mt-8'>
+            {/* <div className='education mt-8'>
                 <span className='text-xl font-bold'>Education</span>
                 <div className='mt-2'>Voronezh State University - Applied mathematics and computer science, Computer Software Engineering</div>
-            </div>
+            </div> */}
 
             <section className='body-font'>
                 <div className='container px-5 py-24 mx-auto'>
