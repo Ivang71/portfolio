@@ -96,7 +96,7 @@ export default async function Page() {
                     <Image src='/portfolio/logos/digitalleague_logo.webp' alt='Digital League logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
                     <div className='flex flex-col'>
                         <span className='text-xl font-bold'>Junior Frontend Developer</span>
-                        <div>Digital League - September 2019 - March 2021</div>
+                        <div>Digital Economy League - September 2019 - March 2021</div>
                     </div>
                 </div>
                 <div>
