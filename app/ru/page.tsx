@@ -9,6 +9,56 @@ export default async function Page() {
                 <div>Я веб-разработчик, которого вдохновляет создание интересных и удобных веб-приложений. Использую свои знания HTML, CSS, JavaScript, React и Next.js для разработки высококачественных и масштабируемых решений. Сотрудничество и постоянное обучение – основа моего подхода, благодаря которому я всегда иду в ногу с динамично развивающимся миром айти.</div>
             </div>
 
+            <span className='text-xl font-bold'>Опыт работы</span>
+
+            <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
+                <div className='flex items-center mb-4'>
+                    <Image src='/portfolio/logos/softgamings_logo.webp' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
+                    <div className='flex flex-col'>
+                        <span className='text-xl font-bold'>Фронтенд разработчик</span>
+                        <div>Softgamings - Апрель 2021 - по настоящее время</div>
+                    </div>
+                </div>
+                <div>
+                    <p className="mb-4">Использовал Angular для создания интерфейсов для онлайн игровых платформ, таких как BetBRX, LuckyCrypto и CatCasino.</p>
+                    <p className="mb-4">Оптимизировал производительность приложения для максимальной скорости и масштабируемости.</p>
+                    <p className="mb-4">Сотрудничал с дизайнерами, специалистами по UI/UX и бэкенд-разработчиками.</p>
+                    <p className="mb-4">Осуществлял постоянное обслуживание и поддержку существующих веб-сайтов, созданных с помощью Angular и PHP.</p>
+                </div>
+            </div>
+
+            <div className={`${styles.boxShadow} mb-8 rounded-md p-4`}>
+                <div className='flex items-center mb-4'>
+                    <Image src='/portfolio/logos/digitalleague_logo.webp' alt='Digital League logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
+                    <div className='flex flex-col'>
+                        <span className='text-xl font-bold'>Junior фронтенд разработчик</span>
+                        <div>Лига Цифровой Экономики - Сентябрь 2019 - Март 2021</div>
+                    </div>
+                </div>
+                <div>
+                    <p className="mb-4">Использовал React для создания веб-интерфейсов, повысив свою квалификацию с Junior до Mid-Level разработчика.</p>
+                    <p className="mb-4">Участвовал в крупных проектах, включая разработку фронтенда для Газпрома и создание внутреннего приложения для гибкого офиса, которым пользовались 530 сотрудников.</p>
+                </div>
+            </div>
+
+            <div className={`${styles.boxShadow} mb-14 rounded-md p-4`}>
+                <div className='flex items-center mb-4'>
+                    <Image src='/portfolio/logos/ship.webp' alt='Digital League logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
+                    <div className='flex flex-col'>
+                        <span className='text-xl font-bold'>Веб разработчик</span>
+                        <div>Фриланс - Июнь 2017 - Сентябрь 2019</div>
+                    </div>
+                </div>
+                <div>
+                    <p className="mb-4">Разработал 14 сайтов для разных клиентов, используя HTML и CSS.</p>
+                </div>
+            </div>
+
+            {/* <div className='education mt-8'>
+                <span className='text-xl font-bold'>Education</span>
+                <div className='mt-2'>Voronezh State University - Applied mathematics and computer science, Computer Software Engineering</div>
+            </div> */}
+
             <div className='mb-16 flex flex-col space-y-4'>
                 <span className='text-xl font-bold'>Некоторые из моих проектов</span>
                 <div className='group relative cursor-pointer select-none'>
@@ -72,56 +122,6 @@ export default async function Page() {
                     </a>
                 </div>
             </div>
-
-            {/* <span className='text-xl font-bold'>Work history</span>
-
-            <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
-                <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/softgamings_logo.webp' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
-                    <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Frontend Developer</span>
-                        <div>Softgamings - April 2021 - Present</div>
-                    </div>
-                </div>
-                <div>
-                    <p className='mb-4'>Leveraged Angular to create engaging and user-friendly interfaces for multiple online gaming platforms, including BetBRX, LuckyCrypto, and CatCasino. Increased user engagement and streamlined user experience, contributing to a 20% reduction in bounce rate.</p>
-                    <p className='mb-4'>Optimized application performance for maximum speed and scalability.</p>
-                    <p className='mb-4'>Collaborated effectively with designers, UI/UX specialists, and backend developers to deliver a seamless user experience.</p>
-                    <p className='mb-4'>Provided ongoing maintenance and support for existing websites built with Angular and PHP.</p>
-                </div>
-            </div>
-
-            <div className={`${styles.boxShadow} mb-8 rounded-md p-4`}>
-                <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/digitalleague_logo.webp' alt='Digital League logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
-                    <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Junior Frontend Developer</span>
-                        <div>Digital League - September 2019 - March 2021</div>
-                    </div>
-                </div>
-                <div>
-                    <p className='mb-4'>Applied React to build user-friendly web experiences, progressing from Junior to Mid-Level Developer.</p>
-                    <p className='mb-4'>Contributed to high-profile projects, including building the frontend for Gazprom, and creating an internal flex office app used by 530 employees.</p>
-                </div>
-            </div>
-
-            <div className={`${styles.boxShadow} mb-14 rounded-md p-4`}>
-                <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/ship.webp' alt='Digital League logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
-                    <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Web Developer</span>
-                        <div>Freelance - June 2017 - September 2019</div>
-                    </div>
-                </div>
-                <div>
-                    <p className='mb-4'>Successfully built and launched 14 dynamic websites for various clients as a solo developer, utilizing HTML and CSS to deliver engaging user experiences.</p>
-                </div>
-            </div>
-
-            <div className='education mt-8'>
-                <span className='text-xl font-bold'>Education</span>
-                <div className='mt-2'>Voronezh State University - Applied mathematics and computer science, Computer Software Engineering</div>
-            </div> */}
 
             <section className='body-font'>
                 <div className='container px-5 py-24 mx-auto'>
