@@ -20,8 +20,8 @@ export default async function Page() {
                     </div>
                 </div>
                 <div>
-                    <p className='mb-4'>Development and support of frontend and backend of websites in PHP, Vue.js, JQuery, Clickhouse, PostgreSQL, Yii2</p>
-                    <p className='mb-4'>Examples: <a href='https://juddy.biz/' target='_blank'>juddy.biz</a>, <a href='https://buymedia.biz/en' target='_blank'>buymedia.biz</a>.</p>
+                    <p className='mb-4'>Разработка и поддержка фронтенда и бекенда сайтов для сайтов на PHP, Vue.js, JQuery, Clickhouse, PostgreSQL, Yii2</p>
+                    <p className='mb-4'>Примеры сайтов: <a href='https://juddy.biz/' target='_blank'>juddy.biz</a>, <a href='https://buymedia.biz/en' target='_blank'>buymedia.biz</a>.</p>
                 </div>
             </div>
 
