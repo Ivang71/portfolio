@@ -5,11 +5,62 @@ export default async function Page() {
     return (
         <main className='container my-20 mx-auto px-4 md:max-w-2xl'>
             <h1 className={`${styles.headline} mb-8 text-5xl font-bold inline-block text-transparent`}>Hello, I&apos;m Artem</h1>
-            <div className='mb-14'>
+            <div className='mb-16 mt-4'>
                 <div>I&apos;m a passionate Front-End Developer driven by creating engaging and user-centric web applications. I leverage my skills in HTML, CSS, JavaScript, React and Next to deliver high-quality and scalable solutions. Collaboration and continuous learning are at the heart of my approach, ensuring I stay at the forefront of the ever-evolving web development landscape.</div>
             </div>
 
-            <div className='mb-16 flex flex-col space-y-4'>
+            <span className='text-xl font-bold'>Work history</span>
+
+            <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
+                <div className='flex items-center mb-4'>
+                    <Image src='/portfolio/logos/internetweb.svg' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md bg-gray-50 p-2' />
+                    <div className='flex flex-col'>
+                        <span className='text-xl font-bold'>Fullstack Engineer</span>
+                        <div>InternetWeb - January 2023 - Present</div>
+                    </div>
+                </div>
+                <div>
+                    <p className='mb-4'>Development and support of frontend and backend of websites in PHP, Vue.js, JQuery, Clickhouse, PostgreSQL, Yii2</p>
+                    <p className='mb-4'>Examples: <a href='https://juddy.biz/' target='_blank'>juddy.biz</a>, <a href='https://buymedia.biz/en' target='_blank'>buymedia.biz</a>.</p>
+                </div>
+            </div>
+
+            <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
+                <div className='flex items-center mb-4'>
+                    <Image src='/portfolio/logos/softgamings_logo.webp' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
+                    <div className='flex flex-col'>
+                        <span className='text-xl font-bold'>Frontend Developer</span>
+                        <div>Softgamings - April 2021 - January 2023</div>
+                    </div>
+                </div>
+                <div>
+                    <p className='mb-4'>Leveraged Angular to create engaging and user-friendly interfaces for multiple online gaming platforms, including BetBRX, <a href='https://play.luckycrypto.com/' target='_blank'>LuckyCrypto</a>, and <a href='https://cats-casino.com/en/home' target='_blank'>CatCasino</a>. Increased user engagement and streamlined user experience, contributing to a 20% reduction in bounce rate.</p>
+                    <p className='mb-4'>Optimized application performance for maximum speed and scalability.</p>
+                    <p className='mb-4'>Collaborated effectively with designers, UI/UX specialists, and backend developers to deliver a seamless user experience.</p>
+                    <p className='mb-4'>Provided ongoing maintenance and support for existing websites built with Angular and PHP.</p>
+                </div>
+            </div>
+
+            <div className={`${styles.boxShadow} mb-8 rounded-md p-4`}>
+                <div className='flex items-center mb-4'>
+                    <Image src='/portfolio/logos/digitalleague_logo.webp' alt='Digital League logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
+                    <div className='flex flex-col'>
+                        <span className='text-xl font-bold'>Junior Frontend Developer</span>
+                        <div>Digital Economy League - September 2019 - March 2021</div>
+                    </div>
+                </div>
+                <div>
+                    <p className='mb-4'>Applied React to build user-friendly web experiences, progressing from Junior to Mid-Level Developer.</p>
+                    <p className='mb-4'>Contributed to high-profile projects, including building the frontend for Gazprom, and creating an internal flex office app used by 530 employees.</p>
+                </div>
+            </div>
+
+            {/* <div className='education mt-8'>
+                <span className='text-xl font-bold'>Education</span>
+                <div className='mt-2'>Voronezh State University - Applied mathematics and computer science, Computer Software Engineering</div>
+            </div> */}
+
+            <div className='mt-20 flex flex-col space-y-4'>
                 <span className='text-xl font-bold'>Some projects I worked on</span>
                 <div className='group relative cursor-pointer select-none'>
                     <a href='https://ecommerce-dashboard-gold.vercel.app' target='blank' rel='noreferrer'>
@@ -73,58 +124,7 @@ export default async function Page() {
                 </div>
             </div>
 
-            <span className='text-xl font-bold'>Work history</span>
-
-            <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
-                <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/internetweb.svg' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md bg-gray-50 p-2' />
-                    <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Fullstack Engineer</span>
-                        <div>InternetWeb - January 2023 - Present</div>
-                    </div>
-                </div>
-                <div>
-                    <p className='mb-4'>Development and support of frontend and backend of websites in PHP, Vue.js, JQuery, Clickhouse, PostgreSQL, Yii2</p>
-                    <p className='mb-4'>Examples: <a href='https://juddy.biz/' target='_blank'>juddy.biz</a>, <a href='https://buymedia.biz/en' target='_blank'>buymedia.biz</a>.</p>
-                </div>
-            </div>
-
-            <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
-                <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/softgamings_logo.webp' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
-                    <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Frontend Developer</span>
-                        <div>Softgamings - April 2021 - January 2023</div>
-                    </div>
-                </div>
-                <div>
-                    <p className='mb-4'>Leveraged Angular to create engaging and user-friendly interfaces for multiple online gaming platforms, including BetBRX, <a href='https://play.luckycrypto.com/' target='_blank'>LuckyCrypto</a>, and <a href='https://cats-casino.com/en/home' target='_blank'>CatCasino</a>. Increased user engagement and streamlined user experience, contributing to a 20% reduction in bounce rate.</p>
-                    <p className='mb-4'>Optimized application performance for maximum speed and scalability.</p>
-                    <p className='mb-4'>Collaborated effectively with designers, UI/UX specialists, and backend developers to deliver a seamless user experience.</p>
-                    <p className='mb-4'>Provided ongoing maintenance and support for existing websites built with Angular and PHP.</p>
-                </div>
-            </div>
-
-            <div className={`${styles.boxShadow} mb-8 rounded-md p-4`}>
-                <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/digitalleague_logo.webp' alt='Digital League logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
-                    <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Junior Frontend Developer</span>
-                        <div>Digital Economy League - September 2019 - March 2021</div>
-                    </div>
-                </div>
-                <div>
-                    <p className='mb-4'>Applied React to build user-friendly web experiences, progressing from Junior to Mid-Level Developer.</p>
-                    <p className='mb-4'>Contributed to high-profile projects, including building the frontend for Gazprom, and creating an internal flex office app used by 530 employees.</p>
-                </div>
-            </div>
-
-            {/* <div className='education mt-8'>
-                <span className='text-xl font-bold'>Education</span>
-                <div className='mt-2'>Voronezh State University - Applied mathematics and computer science, Computer Software Engineering</div>
-            </div> */}
-
-            <section className='body-font'>
+            <section className='body-font mt-4'>
                 <div className='container px-5 py-24 mx-auto'>
                     <div className='w-full mx-auto text-center'>
                         <svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' className='inline-block w-8 h-8 text-gray-400 mb-8' viewBox='0 0 975.036 975.036'>
