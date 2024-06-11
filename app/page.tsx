@@ -63,7 +63,7 @@ export default async function Page() {
             <div className='mt-20 flex flex-col space-y-4'>
                 <span className='text-xl font-bold'>Some projects I worked on</span>
                 <div className='group relative cursor-pointer select-none'>
-                    <a href='https://ivang71.github.io/chevalme-test' target='blank' rel='noreferrer'>
+                    <a href='https://ivang71.github.io/slim-properties' target='blank' rel='noreferrer'>
                         <Image
                             className={`${styles.boxShadow} w-full h-40 object-cover rounded-md`}
                             src='/portfolio/projects/slim.webp'
