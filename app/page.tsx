@@ -108,21 +108,6 @@ export default async function Page() {
                     </a>
                 </div>
                 <div className='group relative cursor-pointer select-none'>
-                    <a href='https://www.catcasino.com' target='blank' rel='noreferrer'>
-                        <Image
-                            className={`${styles.boxShadow} w-full h-40 object-cover rounded-md`}
-                            src='/portfolio/projects/catcasino.avif'
-                            alt='Cat Casino screenshot'
-                            width={1023}
-                            height={540}
-                        />
-                        <div className='absolute inset-0 bg-gray-800 opacity-0 group-hover:opacity-75 transition duration-300 ease-in-out'></div>
-                        <div className='absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300'>
-                            <p className='text-white text-center font-semibold'>Cat Casino</p>
-                        </div>
-                    </a>
-                </div>
-                <div className='group relative cursor-pointer select-none'>
                     <a href='https://buymedia.biz' target='blank' rel='noreferrer'>
                         <Image
                             className={`${styles.boxShadow} w-full h-40 object-cover rounded-md`}
