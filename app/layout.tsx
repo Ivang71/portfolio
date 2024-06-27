@@ -1,6 +1,8 @@
 import '@/app/ui/global.css'
 import { Metadata } from 'next'
 import { roboto } from '@/app/ui/fonts'
+import { Analytics } from './components'
+
 
 export const metadata: Metadata = {
     title: {
@@ -18,6 +20,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
+            <head>
+                <Analytics/>
+            </head>
             <body className={`${roboto.className} antialiased`}>{children}</body>
         </html>
     )
