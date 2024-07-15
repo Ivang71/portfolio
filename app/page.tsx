@@ -16,7 +16,7 @@ export default async function Page() {
                     <Image src='/portfolio/logos/internetweb.svg' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md bg-gray-50 p-2' />
                     <div className='flex flex-col'>
                         <span className='text-xl font-bold'>Fullstack Engineer</span>
-                        <div>InternetWeb - January 2023 - May 2023</div>
+                        <div>InternetWeb - January 2023 - May 2024</div>
                     </div>
                 </div>
                 <div>
