@@ -13,45 +13,55 @@ export default async function Page() {
 
             <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
                 <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/internetweb.svg' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md bg-gray-50 p-2' />
+                    <Image src='/portfolio/logos/rplabs_logo.webp' alt='Red Panda Labs logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md p-2' />
                     <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Фулстек разработчик</span>
-                        <div>InternetWeb - Январь 2023 - Май 2024</div>
+                        <span className='text-xl font-bold'>Senior Frontend Developer</span>
+                        <div>Red Panda Labs — Октябрь 2022 – по наст. время · Remote</div>
                     </div>
                 </div>
                 <div>
-                    <p className='mb-4'>Разработка и поддержка фронтенда и бекенда сайтов для сайтов на PHP, Vue.js, JQuery, Clickhouse, PostgreSQL, Yii2</p>
-                    <p className='mb-4'>Примеры сайтов: <a href='https://juddy.biz/' target='_blank'>juddy.biz</a>, <a href='https://buymedia.biz/en' target='_blank'>buymedia.biz</a>.</p>
-                </div>
-            </div>
-
-            <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
-                <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/softgamings_logo.webp' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
-                    <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Фронтенд разработчик</span>
-                        <div>Softgamings - Апрель 2021 - Январь 2023</div>
-                    </div>
-                </div>
-                <div>
-                    <p className="mb-4">Использовал Angular для создания интерфейсов для онлайн игровых платформ, таких как BetBRX, <a href='https://play.luckycrypto.com/' target='_blank'>LuckyCrypto</a>, and <a href='https://cats-casino.com/en/home' target='_blank'>CatCasino</a>.</p>
-                    <p className="mb-4">Оптимизировал производительность приложения для максимальной скорости и масштабируемости.</p>
-                    <p className="mb-4">Сотрудничал с дизайнерами, специалистами по UI/UX и бэкенд-разработчиками.</p>
-                    <p className="mb-4">Осуществлял постоянное обслуживание и поддержку существующих веб-сайтов, созданных с помощью Angular и PHP.</p>
+                    <p className='mb-4'>
+                        В <a href='https://rplabs.com' target='_blank' rel='noreferrer'>Red Panda Labs</a> я отвечаю за фронтенд онбординга и ключевых шагов воронки продукта с аудиторией 100k+ MAU, стараясь сделать интерфейс понятным, а релизы — спокойными и предсказуемыми.
+                    </p>
+                    <p className='mb-4'>
+                        Я придумываю и запускаю прогрессивный онбординг, который поднял day‑7 LTV на 38% и 7‑дневный ретеншн на 13% за счёт feature‑флагов, детальной аналитики и поэтапных раскаток без резких движений.
+                    </p>
+                    <p className='mb-4'>
+                        Много внимания уделяю скорости: с помощью code‑splitting, критического CSS, приоритизации загрузки и оптимизации изображений удалось снизить First Contentful Paint примерно на 42% на ключевых страницах воронки и подтянуть конверсию на 9%.
+                    </p>
+                    <p className='mb-4'>
+                        Также веду пайплайн релизов (архитектура feature‑флагов, дашборды метрик, RUM‑мониторинг и понятные планы отката) и менторю младших разработчиков через парное программирование и продуманный онбординг.
+                    </p>
+                    <p className='opacity-80'>
+                        Стек: TypeScript, React, Next.js, Webpack/Vite, Jest, React Testing Library, Cypress, GitHub Actions, feature flags.
+                    </p>
                 </div>
             </div>
 
             <div className={`${styles.boxShadow} mb-8 rounded-md p-4`}>
                 <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/digitalleague_logo.webp' alt='Digital League logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
+                    <Image src='/portfolio/logos/beeline_logo.webp' alt='Beeline Uzbekistan logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md p-2' />
                     <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Junior фронтенд разработчик</span>
-                        <div>Лига Цифровой Экономики - Сентябрь 2019 - Март 2021</div>
+                        <span className='text-xl font-bold'>Frontend Developer</span>
+                        <div>Beeline Uzbekistan — Август 2019 – Октябрь 2022</div>
                     </div>
                 </div>
                 <div>
-                    <p className="mb-4">Использовал React для создания веб-интерфейсов, повысив свою квалификацию с Junior до Mid-Level разработчика.</p>
-                    <p className="mb-4">Участвовал в крупных проектах, включая разработку фронтенда для Газпрома и создание внутреннего приложения для гибкого офиса, которым пользовались 530 сотрудников.</p>
+                    <p className='mb-4'>
+                        В Beeline Uzbekistan я собирал и развивал дашборд реального времени для аналитики абонентов на React и TypeScript, чтобы продуктовые и операционные команды могли «на глаз» понимать, как ведут себя миллионы пользователей.
+                    </p>
+                    <p className='mb-4'>
+                        Параллельно занимался личным кабинетом самообслуживания для управления счётом, оплат и выбора тарифов, стараясь, чтобы интерфейс чувствовался лёгким и быстрым и на мобильных, и на десктопе.
+                    </p>
+                    <p className='mb-4'>
+                        За счёт оптимизаций (code‑splitting, ленивой загрузки и продуманного кеширования) удалось сократить время загрузки страниц для пользователей с медленным интернетом примерно на 28%.
+                    </p>
+                    <p className='mb-4'>
+                        Я настроил автотесты и пайплайн для фронтенда на Jest и Cypress, благодаря чему релизы стали спокойнее, а багов после выката — заметно меньше.
+                    </p>
+                    <p className='opacity-80'>
+                        Стек: React, TypeScript, Redux, Webpack, Jest, Cypress, GitLab CI.
+                    </p>
                 </div>
             </div>
 

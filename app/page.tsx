@@ -13,45 +13,55 @@ export default async function Page() {
 
             <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
                 <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/internetweb.svg' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md bg-gray-50 p-2' />
+                    <Image src='/portfolio/logos/rplabs_logo.webp' alt='Red Panda Labs logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md p-2' />
                     <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Fullstack Engineer</span>
-                        <div>InternetWeb - January 2023 - May 2024</div>
+                        <span className='text-xl font-bold'>Senior Frontend Developer</span>
+                        <div>Red Panda Labs — Oct 2022 – Present · Remote</div>
                     </div>
                 </div>
                 <div>
-                    <p className='mb-4'>Development and support of frontend and backend of websites in PHP, Vue.js, JQuery, Clickhouse, PostgreSQL, Yii2</p>
-                    <p className='mb-4'>Examples: <a href='https://juddy.biz/' target='_blank'>juddy.biz</a>, <a href='https://buymedia.biz/en' target='_blank'>buymedia.biz</a>.</p>
-                </div>
-            </div>
-
-            <div className={`${styles.boxShadow} mt-4 mb-8 rounded-md p-4`}>
-                <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/softgamings_logo.webp' alt='Softgamings logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
-                    <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Frontend Developer</span>
-                        <div>Softgamings - April 2021 - January 2023</div>
-                    </div>
-                </div>
-                <div>
-                    <p className='mb-4'>Leveraged Angular to create engaging and user-friendly interfaces for multiple online gaming platforms, including BetBRX, <a href='https://play.luckycrypto.com/' target='_blank'>LuckyCrypto</a>, and <a href='https://cats-casino.com/en/home' target='_blank'>CatCasino</a>. Increased user engagement and streamlined user experience, contributing to a 20% reduction in bounce rate.</p>
-                    <p className='mb-4'>Optimized application performance for maximum speed and scalability.</p>
-                    <p className='mb-4'>Collaborated effectively with designers, UI/UX specialists, and backend developers to deliver a seamless user experience.</p>
-                    <p className='mb-4'>Provided ongoing maintenance and support for existing websites built with Angular and PHP.</p>
+                    <p className='mb-4'>
+                        At <a href='https://rplabs.com' target='_blank' rel='noreferrer'>Red Panda Labs</a> I look after the frontend for onboarding and core funnel flows for a product with 100k+ monthly active users, keeping the UX clean and the releases predictable.
+                    </p>
+                    <p className='mb-4'>
+                        I design and ship progressive onboarding experiments that bumped day‑7 LTV by 38% and 7‑day retention by 13%, using feature flags, detailed instrumentation and small, safe rollouts.
+                    </p>
+                    <p className='mb-4'>
+                        I care a lot about performance: I improved First Contentful Paint by 42% across key funnel pages with code‑splitting, critical CSS, smarter loading and image optimization, which helped lift funnel conversion by 9%.
+                    </p>
+                    <p className='mb-4'>
+                        I also own the rollout pipeline (feature‑flag architecture, metrics dashboards, RUM monitoring and rollback playbooks) and spend time mentoring junior developers through pair programming and structured onboarding.
+                    </p>
+                    <p className='opacity-80'>
+                        Stack: TypeScript, React, Next.js, Webpack/Vite, Jest, React Testing Library, Cypress, GitHub Actions, feature flags.
+                    </p>
                 </div>
             </div>
 
             <div className={`${styles.boxShadow} mb-8 rounded-md p-4`}>
                 <div className='flex items-center mb-4'>
-                    <Image src='/portfolio/logos/digitalleague_logo.webp' alt='Digital League logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md' />
+                    <Image src='/portfolio/logos/beeline_logo.webp' alt='Beeline Uzbekistan logo' width={200} height={200} className='w-14 h-14 mr-4 rounded-md p-2' />
                     <div className='flex flex-col'>
-                        <span className='text-xl font-bold'>Junior Frontend Developer</span>
-                        <div>Digital Economy League - September 2019 - March 2021</div>
+                        <span className='text-xl font-bold'>Frontend Developer</span>
+                        <div>Beeline Uzbekistan — Aug 2019 – Oct 2022</div>
                     </div>
                 </div>
                 <div>
-                    <p className='mb-4'>Applied React to build user-friendly web experiences, progressing from Junior to Mid-Level Developer.</p>
-                    <p className='mb-4'>Contributed to high-profile projects, including building the frontend for Gazprom, and creating an internal flex office app used by 530 employees.</p>
+                    <p className='mb-4'>
+                        At Beeline Uzbekistan I built and evolved a real‑time subscriber analytics dashboard in React and TypeScript that gave product and operations teams a clear, visual feel for how millions of users behaved.
+                    </p>
+                    <p className='mb-4'>
+                        I also worked on a responsive, component‑driven self‑service portal for account management, payments and tariff selection, making sure it felt fast and intuitive on both mobile and desktop.
+                    </p>
+                    <p className='mb-4'>
+                        With performance tweaks like code‑splitting, lazy loading and smarter caching strategies, I helped cut page‑load times by around 28% for users on slower connections.
+                    </p>
+                    <p className='mb-4'>
+                        I set up automated testing pipelines with Jest and Cypress so the team could ship changes with more confidence and deal with fewer bugs after release.
+                    </p>
+                    <p className='opacity-80'>
+                        Stack: React, TypeScript, Redux, Webpack, Jest, Cypress, GitLab CI.
+                    </p>
                 </div>
             </div>
 
